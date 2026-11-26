@@ -1,6 +1,7 @@
 """Small string helpers."""
 
 from textutil.capitalize_words import capitalize_words
+from textutil.count_consonants import count_consonants
 from textutil.hanging_indent import hanging_indent
 from textutil.initials import initials
 from textutil.is_palindrome import is_palindrome
@@ -12,4 +13,4 @@ from textutil.truncate import truncate
 from textutil.word_count import word_count
 from textutil.to_snake_case import to_snake_case
 
-__all__ = ["capitalize_words", "hanging_indent", "initials", "is_palindrome", "longest_word", "remove_vowels", "reverse", "truncate", "vowel_count", "word_count", "to_snake_case"]
+__all__ = ["capitalize_words", "count_consonants", "hanging_indent", "initials", "is_palindrome", "longest_word", "remove_vowels", "reverse", "truncate", "vowel_count", "word_count", "to_snake_case"]
