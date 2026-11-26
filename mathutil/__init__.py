@@ -9,8 +9,9 @@ from mathutil.gcd import gcd
 from mathutil.is_even import is_even
 from mathutil.is_prime import is_prime
 from mathutil.is_perfect import is_perfect
+from mathutil.is_power_of_two import is_power_of_two
 from mathutil.lcm import lcm
 from mathutil.round_down import round_down
 from mathutil.sum_range import sum_range
 
-__all__ = ["clamp", "count_divisors", "count_in_range", "digit_sum", "factorial", "gcd", "is_even", "is_prime", "is_perfect", "lcm", "round_down", "sum_range"]
+__all__ = ["clamp", "count_divisors", "count_in_range", "digit_sum", "factorial", "gcd", "is_even", "is_prime", "is_perfect", "is_power_of_two", "lcm", "round_down", "sum_range"]
