@@ -1,0 +1,8 @@
+# Pull requests opened by the ai-sdlc runtime are verified and reviewed by
+# its own independent reviewer. A third-party review thread would block the
+# merge rule that requires resolved conversations, so skip automatic reviews
+# of those pull requests only.
+reviews:
+  auto_review:
+    ignore_title_keywords:
+      - "fix(ai-sdlc): address issue #"
