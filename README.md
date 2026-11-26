@@ -7,7 +7,7 @@ own tests, independent review, pull request and merge). It is the Python
 counterpart of [ai-sdlc-sample](https://github.com/os-santiago/ai-sdlc-sample).
 
 ```bash
-python3 -m unittest discover -s . -p 'test_*.py'
+python3 -I -m unittest discover -s . -t . -p 'test_*.py'
 ```
 
 It needs Python 3.12 or later and uses only the standard library, so its
