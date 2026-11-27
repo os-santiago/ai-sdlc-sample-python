@@ -1,6 +1,7 @@
 """Small string helpers."""
 
 from textutil.capitalize_words import capitalize_words
+from textutil.char_frequency_max import char_frequency_max
 from textutil.count_consonants import count_consonants
 from textutil.count_uppercase import count_uppercase
 from textutil.count_long_words import count_long_words
@@ -19,4 +20,4 @@ from textutil.word_count import word_count
 from textutil.to_snake_case import to_snake_case
 from textutil.vowel_ratio_percent import vowel_ratio_percent
 
-__all__ = ["capitalize_words", "count_consonants", "count_uppercase", "count_long_words", "first_char", "hanging_indent", "initials", "is_alpha", "is_palindrome", "longest_word", "remove_vowels", "repeat_words", "reverse", "truncate", "vowel_count", "vowel_ratio_percent", "word_count", "to_snake_case"]
+__all__ = ["capitalize_words", "char_frequency_max", "count_consonants", "count_uppercase", "count_long_words", "first_char", "hanging_indent", "initials", "is_alpha", "is_palindrome", "longest_word", "remove_vowels", "repeat_words", "reverse", "truncate", "vowel_count", "vowel_ratio_percent", "word_count", "to_snake_case"]
