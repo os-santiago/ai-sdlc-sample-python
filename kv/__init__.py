@@ -10,6 +10,7 @@ from kv.merge import merge
 from kv.min_key import min_key
 from kv.omit import omit
 from kv.pick import pick
+from kv.rename_key import rename_key
 from kv.sorted_keys import sorted_keys
 
-__all__ = ["count_prefix", "count_values", "filter_prefix", "has_all", "invert", "max_value_key", "merge", "min_key", "omit", "pick", "sorted_keys"]
+__all__ = ["count_prefix", "count_values", "filter_prefix", "has_all", "invert", "max_value_key", "merge", "min_key", "omit", "pick", "rename_key", "sorted_keys"]
