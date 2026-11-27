@@ -13,6 +13,7 @@ from mathutil.gcd import gcd
 from mathutil.is_even import is_even
 from mathutil.is_odd import is_odd
 from mathutil.is_prime import is_prime
+from mathutil.is_palindrome_number import is_palindrome_number
 from mathutil.is_perfect import is_perfect
 from mathutil.is_power_of_two import is_power_of_two
 from mathutil.is_triangular import is_triangular
@@ -24,4 +25,4 @@ from mathutil.sum_range import sum_range
 from mathutil.sum_digits_squared import sum_digits_squared
 from mathutil.sum_of_evens import sum_of_evens
 
-__all__ = ["abs_difference_sum", "clamp", "collatz_steps", "count_divisors", "count_in_range", "count_primes_below", "digit_sum", "digit_product", "factorial", "gcd", "is_even", "is_odd", "is_prime", "is_perfect", "is_power_of_two", "is_triangular", "lcm", "mean_int", "next_multiple", "round_down", "sum_range", "sum_digits_squared", "sum_of_evens"]
+__all__ = ["abs_difference_sum", "clamp", "collatz_steps", "count_divisors", "count_in_range", "count_primes_below", "digit_sum", "digit_product", "factorial", "gcd", "is_even", "is_odd", "is_prime", "is_palindrome_number", "is_perfect", "is_power_of_two", "is_triangular", "lcm", "mean_int", "next_multiple", "round_down", "sum_range", "sum_digits_squared", "sum_of_evens"]
