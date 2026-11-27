@@ -2,6 +2,7 @@
 
 from kv.count_prefix import count_prefix
 from kv.count_values import count_values
+from kv.key_count_with_value import key_count_with_value
 from kv.filter_prefix import filter_prefix
 from kv.has_all import has_all
 from kv.invert import invert
@@ -14,4 +15,4 @@ from kv.rename_key import rename_key
 from kv.sorted_keys import sorted_keys
 from kv.values_with_prefix import values_with_prefix
 
-__all__ = ["count_prefix", "count_values", "filter_prefix", "has_all", "invert", "max_value_key", "merge", "min_key", "omit", "pick", "rename_key", "sorted_keys", "values_with_prefix"]
+__all__ = ["count_prefix", "count_values", "key_count_with_value", "filter_prefix", "has_all", "invert", "max_value_key", "merge", "min_key", "omit", "pick", "rename_key", "sorted_keys", "values_with_prefix"]
