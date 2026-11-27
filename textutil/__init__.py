@@ -3,6 +3,7 @@
 from textutil.capitalize_words import capitalize_words
 from textutil.count_consonants import count_consonants
 from textutil.count_uppercase import count_uppercase
+from textutil.count_long_words import count_long_words
 from textutil.first_char import first_char
 from textutil.hanging_indent import hanging_indent
 from textutil.initials import initials
@@ -17,4 +18,4 @@ from textutil.truncate import truncate
 from textutil.word_count import word_count
 from textutil.to_snake_case import to_snake_case
 
-__all__ = ["capitalize_words", "count_consonants", "count_uppercase", "first_char", "hanging_indent", "initials", "is_alpha", "is_palindrome", "longest_word", "remove_vowels", "repeat_words", "reverse", "truncate", "vowel_count", "word_count", "to_snake_case"]
+__all__ = ["capitalize_words", "count_consonants", "count_uppercase", "count_long_words", "first_char", "hanging_indent", "initials", "is_alpha", "is_palindrome", "longest_word", "remove_vowels", "repeat_words", "reverse", "truncate", "vowel_count", "word_count", "to_snake_case"]
