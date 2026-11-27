@@ -12,5 +12,6 @@ from kv.omit import omit
 from kv.pick import pick
 from kv.rename_key import rename_key
 from kv.sorted_keys import sorted_keys
+from kv.values_with_prefix import values_with_prefix
 
-__all__ = ["count_prefix", "count_values", "filter_prefix", "has_all", "invert", "max_value_key", "merge", "min_key", "omit", "pick", "rename_key", "sorted_keys"]
+__all__ = ["count_prefix", "count_values", "filter_prefix", "has_all", "invert", "max_value_key", "merge", "min_key", "omit", "pick", "rename_key", "sorted_keys", "values_with_prefix"]
