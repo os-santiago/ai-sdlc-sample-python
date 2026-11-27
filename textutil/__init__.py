@@ -22,5 +22,6 @@ from textutil.truncate import truncate
 from textutil.word_count import word_count
 from textutil.to_snake_case import to_snake_case
 from textutil.vowel_ratio_percent import vowel_ratio_percent
+from textutil.word_lengths import word_lengths
 
-__all__ = ["alternate_case", "capitalize_words", "char_frequency_max", "count_consonants", "count_digits", "count_uppercase", "count_long_words", "first_char", "hanging_indent", "initials", "is_alpha", "is_palindrome", "longest_word", "remove_vowels", "repeat_words", "reverse", "strip_punctuation", "truncate", "vowel_count", "vowel_ratio_percent", "word_count", "to_snake_case"]
+__all__ = ["alternate_case", "capitalize_words", "char_frequency_max", "count_consonants", "count_digits", "count_uppercase", "count_long_words", "first_char", "hanging_indent", "initials", "is_alpha", "is_palindrome", "longest_word", "remove_vowels", "repeat_words", "reverse", "strip_punctuation", "truncate", "vowel_count", "vowel_ratio_percent", "word_count", "to_snake_case", "word_lengths"]
