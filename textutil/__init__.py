@@ -15,10 +15,11 @@ from textutil.longest_word import longest_word
 from textutil.remove_vowels import remove_vowels
 from textutil.reverse import reverse
 from textutil.repeat_words import repeat_words
+from textutil.strip_punctuation import strip_punctuation
 from textutil.vowel_count import vowel_count
 from textutil.truncate import truncate
 from textutil.word_count import word_count
 from textutil.to_snake_case import to_snake_case
 from textutil.vowel_ratio_percent import vowel_ratio_percent
 
-__all__ = ["capitalize_words", "char_frequency_max", "count_consonants", "count_digits", "count_uppercase", "count_long_words", "first_char", "hanging_indent", "initials", "is_alpha", "is_palindrome", "longest_word", "remove_vowels", "repeat_words", "reverse", "truncate", "vowel_count", "vowel_ratio_percent", "word_count", "to_snake_case"]
+__all__ = ["capitalize_words", "char_frequency_max", "count_consonants", "count_digits", "count_uppercase", "count_long_words", "first_char", "hanging_indent", "initials", "is_alpha", "is_palindrome", "longest_word", "remove_vowels", "repeat_words", "reverse", "strip_punctuation", "truncate", "vowel_count", "vowel_ratio_percent", "word_count", "to_snake_case"]
