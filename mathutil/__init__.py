@@ -14,5 +14,6 @@ from mathutil.is_power_of_two import is_power_of_two
 from mathutil.lcm import lcm
 from mathutil.round_down import round_down
 from mathutil.sum_range import sum_range
+from mathutil.sum_digits_squared import sum_digits_squared
 
-__all__ = ["clamp", "count_divisors", "count_in_range", "digit_sum", "factorial", "gcd", "is_even", "is_odd", "is_prime", "is_perfect", "is_power_of_two", "lcm", "round_down", "sum_range"]
+__all__ = ["clamp", "count_divisors", "count_in_range", "digit_sum", "factorial", "gcd", "is_even", "is_odd", "is_prime", "is_perfect", "is_power_of_two", "lcm", "round_down", "sum_range", "sum_digits_squared"]
