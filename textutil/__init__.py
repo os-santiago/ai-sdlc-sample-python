@@ -16,6 +16,7 @@ from textutil.is_palindrome import is_palindrome
 from textutil.is_title_case import is_title_case
 from textutil.longest_word import longest_word
 from textutil.last_word import last_word
+from textutil.pad_center import pad_center
 from textutil.remove_vowels import remove_vowels
 from textutil.reverse import reverse
 from textutil.repeat_words import repeat_words
@@ -27,4 +28,4 @@ from textutil.to_snake_case import to_snake_case
 from textutil.vowel_ratio_percent import vowel_ratio_percent
 from textutil.word_lengths import word_lengths
 
-__all__ = ["alternate_case", "capitalize_words", "char_frequency_max", "count_consonants", "count_digits", "count_spaces", "count_uppercase", "count_long_words", "first_char", "hanging_indent", "initials", "is_alpha", "is_palindrome", "is_title_case", "last_word", "longest_word", "remove_vowels", "repeat_words", "reverse", "strip_punctuation", "truncate", "vowel_count", "vowel_ratio_percent", "word_count", "to_snake_case", "word_lengths"]
+__all__ = ["alternate_case", "capitalize_words", "char_frequency_max", "count_consonants", "count_digits", "count_spaces", "count_uppercase", "count_long_words", "first_char", "hanging_indent", "initials", "is_alpha", "is_palindrome", "is_title_case", "last_word", "longest_word", "pad_center", "remove_vowels", "repeat_words", "reverse", "strip_punctuation", "truncate", "vowel_count", "vowel_ratio_percent", "word_count", "to_snake_case", "word_lengths"]
